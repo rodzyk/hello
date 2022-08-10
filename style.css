@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --fontSize: 16px;
+    --color: #222;
+    --bgColor: #fff;
+    font-size: var(--fontSize);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: var(--bgColor);
+    color: var(--color);
+}
