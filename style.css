@@ -18,3 +18,10 @@ body {
     background-color: var(--bgColor);
     color: var(--color);
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color: #b2b2b2;
+        --bgColor: #1b2227;
+    }
+}
